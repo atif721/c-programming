@@ -34,21 +34,21 @@ int main()
 
   if(hRent < (basicSalary*(45.0/100))){
     hRent = basicSalary*(45.0/100);
-    // printf("\n\nHouseRent : %.2lf",hRent);
+    printf("\n\nHouseRent : %.2lf",hRent);
   } else {
-    // printf("\n\nHouseRent : %.2lf",hRent);
+    printf("\n\nHouseRent : %.2lf",hRent);
   }
   if(medical < (basicSalary*(10.0/100))){
     medical = basicSalary * (10.0/100);
-    // printf("\n\nMedical : %.2lf",medical);
+    printf("\n\nMedical : %.2lf",medical);
   }
   if(conveyance < basicSalary * (10.0/100)){
     conveyance = basicSalary * (10.0/100);
-   // printf("\n\nConveyance : %.2lf",conveyance);
+    printf("\n\nConveyance : %.2lf",conveyance);
   }
   if(others < basicSalary * (20.0/100)){
     others = basicSalary * (20.0/100);
-   // printf("\n\nOthers : %.2lf",others);
+    printf("\n\nOthers : %.2lf",others);
   }
 
   providentFund = basicSalary * (8.0/100);
